@@ -2,10 +2,6 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Express on Vercel");
-});
-
-app.get("/", (req, res) => {
   res.json({
     message: "Hi",
   });
